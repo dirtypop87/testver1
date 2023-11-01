@@ -15,3 +15,7 @@ ggp <- ggplot() +
   scale_x_discrete("cyl") + guides(fill=guide_legend("am")) +
   theme_classic()
 ggp
+
+ggp + theme(legend.position = "bottom
+            ")
+
