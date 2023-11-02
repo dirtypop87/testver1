@@ -16,6 +16,7 @@ ggp <- ggplot() +
   theme_classic()
 ggp
 
-ggp + theme(legend.position = "bottom
-            ")
+ggp + theme(legend.position = "bottom")
+ggp + theme(legend.position = "bottom", panel.background = element_rect(fill="grey80"))
+
 
